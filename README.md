@@ -37,68 +37,96 @@ Ensure you have the following installed:
    Install dependencies:
    ```
 
-bash
-Copy
-Edit
-npm install
-Start the server:
+2. **Install dependencies:**
 
-bash
-Copy
-Edit
-npm start
-Test the API locally: Open your browser or use Postman to visit:
+   ```bash
+   npm install
+   ```
 
-arduino
-Copy
-Edit
-http://localhost:4000/
-API Documentation
-Base URL (Deployed API Endpoint)
-arduino
-Copy
-Edit
+3. **Start the server:**
+
+   ```bash
+   npm start
+   ```
+
+4. **Test the API locally:**
+   Open your browser or use Postman to visit:
+   ```
+   http://localhost:4000/
+   ```
+
+---
+
+## API Documentation
+
+### Base URL (Deployed API Endpoint)
+
+```
 https://hngfirsttask-bhz2.onrender.com/
-Endpoint:
-GET /
+```
+
+### Endpoint:
+
+#### **GET /**
+
 Returns essential details in JSON format.
 
-Request Format:
+#### **Request Format:**
+
 No request parameters required.
 
-Response Format (200 OK):
-json
-Copy
-Edit
+#### **Response Format (`200 OK`):**
+
+```json
 {
-"email": "opeyemiibrahim667gmail.com",
-"current_datetime": "2025-01-30T21:22:08.607Z",
-"github_url": "https://github.com/dorcax/HngFirstTask"
+  "email": "opeyemiibrahim667gmail.com",
+  "current_datetime": "2025-01-30T21:22:08.607Z",
+  "github_url": "https://github.com/dorcax/HngFirstTask"
 }
-Example Usage
-Using curl in Terminal:
-bash
-Copy
-Edit
+```
+
+### Example Usage
+
+#### **Using `curl` in Terminal:**
+
+```bash
 curl -X GET https://hngfirsttask-bhz2.onrender.com/
-Using JavaScript (Fetch API):
-js
-Copy
-Edit
+```
+
+#### **Using JavaScript (Fetch API):**
+
+```js
 fetch("https://hngfirsttask-bhz2.onrender.com/")
-.then((response) => response.json())
-.then((data) => console.log(data))
-.catch((error) => console.error("Error:", error));
-Deployment
-The API is deployed on Render and is publicly accessible.
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
+```
 
-Live URL: https://hngfirsttask-bhz2.onrender.com/
-Response Time: < 500ms
-Related Link
-Interested in Node.js developers? Visit: 👉 https://hng.tech/hire/nodejs-developers
+---
 
-License
+## Deployment
+
+The API is deployed on **Render** and is publicly accessible.
+
+- **Live URL:** [https://hngfirsttask-bhz2.onrender.com/](https://hngfirsttask-bhz2.onrender.com/)
+- **Response Time:** < 500ms
+
+---
+
+## Related Link
+
+Interested in **Node.js developers**? Visit:
+👉 [https://hng.tech/hire/nodejs-developers](https://hng.tech/hire/nodejs-developers)
+
+---
+
+### License
+
 This project is open-source and available under the MIT License.
 
-Author
-Developed by [Ibrahim Dorcas Opeyemi]
+---
+
+### Author
+
+Developed by **[Ibrahim Dorcas Opeyemi]**
+```
