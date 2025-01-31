@@ -2,17 +2,18 @@ import express from "express"
 import cors from "cors"
 
 const app =express()
-const port=4000
+const port= process.env.PORT ||4000
 
 app.use(cors())
 
 
 app.get("/",(req,res)=>{
-    res.json({
-      email: "opeyemiibrahim667gmail.com",
-      current_datetime: new Date().toISOString(),
+    const data={
+      email: "dorcasibrahim667gmail.com",
+      current_datetime: new Date().toISOString().split(".")[0] + "Z",
       github_url: "https://github.com/dorcax/HngFirstTask",
-    });
+    }
+    res.status(200).json(data)
 })
 
 app.listen(port,()=>{
