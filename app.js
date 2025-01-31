@@ -9,7 +9,7 @@ app.use(cors())
 
 app.get("/",(req,res)=>{
     res.json({
-      email: "dorcasibrahim667gmail.com",
+      email: "opeyemiibrahim667gmail.com",
       current_datetime: new Date().toISOString(),
       github_url: "https://github.com/dorcax/HngFirstTask",
     });
