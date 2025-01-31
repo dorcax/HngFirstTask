@@ -8,7 +8,7 @@ A simple public API that returns the registered email, current datetime in ISO 8
 - Express.js
 - Deployed on Render
 
-##Setup Instruction
+## Setup Instruction
 -clone the project repo
 -npm install
 -node app.js 
