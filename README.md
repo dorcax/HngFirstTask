@@ -1,4 +1,3 @@
-````markdown
 # HNG12 Public API
 
 ## Project Overview
@@ -13,10 +12,10 @@ The API is built using **Node.js with Express.js** and deployed for public acces
 
 ## Technology Stack
 
-- Backend: Node.js, Express.js
-- Deployment: Render
-- Version Control: GitHub
-- CORS Handling: Enabled with Express CORS middleware
+- **Backend:** Node.js, Express.js
+- **Deployment:** Render
+- **Version Control:** GitHub
+- **CORS Handling:** Enabled with Express CORS middleware
 
 ---
 
@@ -35,102 +34,71 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/dorcax/HngFirstTask
-   ```
-````
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
+   Install dependencies:
    ```
 
-3. **Start the server:**
+bash
+Copy
+Edit
+npm install
+Start the server:
 
-   ```bash
-   npm start
-   ```
+bash
+Copy
+Edit
+npm start
+Test the API locally: Open your browser or use Postman to visit:
 
-4. **Test the API locally:**
-   Open your browser or use Postman to visit:
-   ```
-   http://localhost:4000/
-   ```
-
----
-
-## API Documentation
-
-### Base URL (Deployed API Endpoint)
-
-```
+arduino
+Copy
+Edit
+http://localhost:4000/
+API Documentation
+Base URL (Deployed API Endpoint)
+arduino
+Copy
+Edit
 https://hngfirsttask-bhz2.onrender.com/
-```
-
-### Endpoint:
-
-#### **GET /**
-
+Endpoint:
+GET /
 Returns essential details in JSON format.
 
-#### **Request Format:**
-
+Request Format:
 No request parameters required.
 
-#### **Response Format (`200 OK`):**
-
-```json
+Response Format (200 OK):
+json
+Copy
+Edit
 {
-  "email": "opeyemiibrahim667gmail.com",
-  "current_datetime": "2025-01-30T21:22:08.607Z",
-  "github_url": "https://github.com/dorcax/HngFirstTask"
+"email": "opeyemiibrahim667gmail.com",
+"current_datetime": "2025-01-30T21:22:08.607Z",
+"github_url": "https://github.com/dorcax/HngFirstTask"
 }
-```
-
-### Example Usage
-
-#### **Using `curl` in Terminal:**
-
-```bash
+Example Usage
+Using curl in Terminal:
+bash
+Copy
+Edit
 curl -X GET https://hngfirsttask-bhz2.onrender.com/
-```
-
-#### **Using JavaScript (Fetch API):**
-
-```js
+Using JavaScript (Fetch API):
+js
+Copy
+Edit
 fetch("https://hngfirsttask-bhz2.onrender.com/")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.error("Error:", error));
-```
+.then((response) => response.json())
+.then((data) => console.log(data))
+.catch((error) => console.error("Error:", error));
+Deployment
+The API is deployed on Render and is publicly accessible.
 
----
+Live URL: https://hngfirsttask-bhz2.onrender.com/
+Response Time: < 500ms
+Related Link
+Interested in Node.js developers? Visit: 👉 https://hng.tech/hire/nodejs-developers
 
-## Deployment
-
-The API is deployed on **Render** and is publicly accessible.
-
-- **Live URL:** [https://hngfirsttask-bhz2.onrender.com/](https://hngfirsttask-bhz2.onrender.com/)
-- **Response Time:** < 500ms
-
----
-
-## Related Link
-
-Interested in **Node.js developers**? Visit:
-👉 [https://hng.tech/hire/nodejs-developers](https://hng.tech/hire/nodejs-developers)
-
----
-
-### License
-
+License
 This project is open-source and available under the MIT License.
 
----
-
-### Author
-
-Developed by **[Ibrahim Dorcas Opeyemi]**
-
-```
-
-```
+Author
+Developed by [Ibrahim Dorcas Opeyemi]
