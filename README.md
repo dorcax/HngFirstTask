@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # HNG12 Public API
 
 ## Project Overview
@@ -36,7 +36,6 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/dorcax/HngFirstTask
    ```
-````
 
 2. **Install dependencies:**
 
@@ -130,7 +129,4 @@ This project is open-source and available under the MIT License.
 ### Author
 
 Developed by **[Ibrahim Dorcas Opeyemi]**
-
-```
-
 ```
