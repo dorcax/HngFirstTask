@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # HNG12 Public API
 
 ## Project Overview
@@ -13,10 +13,10 @@ The API is built using **Node.js with Express.js** and deployed for public acces
 
 ## Technology Stack
 
-- **Backend:** Node.js, Express.js
-- **Deployment:** Render
-- **Version Control:** GitHub
-- **CORS Handling:** Enabled with Express CORS middleware
+- Backend: Node.js, Express.js
+- Deployment: Render
+- Version Control: GitHub
+- CORS Handling: Enabled with Express CORS middleware
 
 ---
 
@@ -36,6 +36,7 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/dorcax/HngFirstTask
    ```
+````
 
 2. **Install dependencies:**
 
@@ -129,4 +130,7 @@ This project is open-source and available under the MIT License.
 ### Author
 
 Developed by **[Ibrahim Dorcas Opeyemi]**
+
+```
+
 ```
