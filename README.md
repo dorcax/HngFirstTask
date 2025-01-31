@@ -1,5 +1,3 @@
-Here is the updated README with your requested changes:
-
 ````markdown
 # HNG12 Public API
 
