@@ -9,9 +9,9 @@ A simple public API that returns the registered email, current datetime in ISO 8
 - Deployed on Render
 
 ## Setup Instruction
--clone the project repo
--npm install
--node app.js 
+- clone the project repo
+- npm install
+- node app.js 
  
 Open http://localhost:4000 in the browser.
 ## API Endpoint
