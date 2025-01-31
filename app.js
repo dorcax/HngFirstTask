@@ -1,21 +1,20 @@
-import express from "express"
-import cors from "cors"
+import express from "express";
+import cors from "cors";
 
-const app =express()
-const port= process.env.PORT ||4000
+const app = express();
+const port = process.env.PORT || 4000;
 
-app.use(cors())
+app.use(cors());
 
+app.get("/", (req, res) => {
+  const data = {
+    email: "dorcasibrahim667gmail.com",
+    current_datetime: new Date(),
+    github_url: "https://github.com/dorcax/HngFirstTask",
+  };
+  res.status(200).json(data);
+});
 
-app.get("/",(req,res)=>{
-    const data={
-      email: "dorcasibrahim667gmail.com",
-      current_datetime: new Date().toISOString().split(".")[0] + "Z",
-      github_url: "https://github.com/dorcax/HngFirstTask",
-    }
-    res.status(200).json(data)
-})
-
-app.listen(port,()=>{
-    console.log(`app running on port ${port}` )
-})
+app.listen(port, () => {
+  console.log(`app running on port ${port}`);
+});
